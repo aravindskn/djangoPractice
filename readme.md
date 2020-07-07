@@ -2,8 +2,8 @@ An Application to view list of users with activity period.
 
 Endpoints:
     
-    localhost:8000/api/v1/users/ to list all the members.
-    localhost:8000/docs/ to view api documentation.
+    api/v1/users/ to list all the members.
+    docs/ to view api documentation.
     
 Commands:
     
@@ -15,3 +15,8 @@ Tech:
     Django Rest Framework
     CoreAPI
     MySQL Client
+    
+Demo:
+    
+    The Demo for this application can be found at http://aravindskn.pythonanywhere.com/
+    The endpoint is the same as mentioned above.

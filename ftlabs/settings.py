@@ -25,7 +25,7 @@ SECRET_KEY = 'rj=w(##=%jj&@(o$b4zdrya2f(!#yds(reri9+6auvvw=$6x&0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://ftlabstest.herokuapp.com']
+ALLOWED_HOSTS = ['http://aravindskn.pythonanywhere.com/']
 
 
 # Application definition
@@ -121,7 +121,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 REST_FRAMEWORK = {
 
