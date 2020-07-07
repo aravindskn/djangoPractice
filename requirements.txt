@@ -3,3 +3,4 @@ djangorestframework==3.11.0
 pytz==2020.1
 coreapi==2.3.3
 mysql-connector-python==8.0.20
+dateparser==0.7.6
