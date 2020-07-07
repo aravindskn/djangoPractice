@@ -2,10 +2,11 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+from ftlabs.settings.env_settings import EnvironmentSettings
 
 
 def main():
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ftlabs.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', EnvironmentSettings.environment)
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
