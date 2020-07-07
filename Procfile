@@ -1,1 +1,1 @@
-web: gunicorn ftlabs.ftlabs.wsgi
+web: gunicorn ftlabs.wsgi
