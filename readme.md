@@ -15,8 +15,3 @@ Tech:
     Django Rest Framework
     CoreAPI
     MySQL Client
-    
-Demo:
-    
-    The Demo for this application can be found at http://aravindskn.pythonanywhere.com/
-    The endpoint is the same as mentioned above.
